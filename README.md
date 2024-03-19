@@ -36,7 +36,7 @@ Degree repo:
    <br />
 </p>
 
-#My Github Info
+## My Github Info
 
 [![LordC666's Stats](https://github-readme-stats.vercel.app/api?username=LordC666&theme=gotham&show_icons=true&hide_border=false&count_private=true)
 
