@@ -1,5 +1,8 @@
 ### César Nieto Silva 👋💻
 
+[![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/LordC666)
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/c%C3%A9sar-nieto-silva-1b40b2276/)
+
 # About me
 
 I'm currently doing a superior degree in Networked Computer Systems Administration,where I am specializing in Databases, Computer Security and Markup Language. I stand out for my outstanding ability in the design, implementation and management of databases, as well as in the application of effective computer security measures. In addition, I have solid experience in web development using Markup Language. My long-term goal is to further specialize in Computer Security to contribute significantly to the protection of critical systems and data. 
