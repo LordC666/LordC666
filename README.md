@@ -13,21 +13,24 @@ Degree repo:
   
   <br />
   
-<code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/></code>
+<code><img width="5%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"/></code>
   
   <br />
   
-  <code><img width="5%" src="https://github.com/ismaelucky342/ismaelucky342/assets/153450550/63b2bbf8-f177-410f-ad34-1f970997e781"></code>
-  <code><img width="5%" src="https://github.com/ismaelucky342/ismaelucky342/assets/153450550/aacdea5e-c951-4420-854f-2c91a0a84f69"></code>
-  <code><img width="5%" src="https://github.com/ismaelucky342/ismaelucky342/assets/153450550/34d6658f-b3d1-4c86-b4d1-c5928317d6d8"></code>
+  <code><img width="5%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql"/></code>
+  <code><img width="5%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"/></code>
   
   <br />
   
-   <code><img width="5%" src="https://github.com/ismaelucky342/ismaelucky342/assets/153450550/213d9735-ae72-4b21-ac7c-3db4af8f327f"></code>
-    <code><img width="5%" src="https://github.com/ismaelucky342/ismaelucky342/assets/153450550/4d046d59-cef8-4cea-a06f-cd3658de557e"></code>
-     <code><img width="5%" src="https://github.com/ismaelucky342/ismaelucky342/assets/153450550/4ec23139-3673-432c-bb44-77bfcfc2099b"></code>
-  
-   <br /> 
+   <code><img width="5%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5"/></code>
+    <code><img width="5%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3"/></code>
+     <code><img width="5%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript"/></code>
+    <code><img width="5%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php"/></code>
+   <br />
+
+  <code><img width="5%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux"/></code>
+
+   <br />
 </p>
 
 #My Github Info
@@ -39,21 +42,7 @@ Degree repo:
 [![LordC666's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=LordC666&theme=gotham&show_icons=true&hide_border=false&layout=compact)
 
 <!--
-**LordC666/LordC666** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> 
-
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
-
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
-
-<a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> 
-
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
-
-<a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> 
-
+**LordC666/LordC666** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. 
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 Here are some ideas to get you started:
 
