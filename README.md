@@ -1,4 +1,4 @@
-### César Nieto Silva 👋
+### César Nieto Silva 👋💻
 
 # About me
 
@@ -6,7 +6,7 @@ I'm currently doing a superior degree in Networked Computer Systems Administrati
 
 Degree repo: 
 
-## Languages and Tools
+## Languages and Tools 🔧⚙️
 
   <code><img width="5%" src="https://github.com/ismaelucky342/ismaelucky342/assets/153450550/e5c556b4-a10b-4681-ae27-2a3ee423bd4f"></code>
   <code><img width="5%" src="https://github.com/ismaelucky342/ismaelucky342/assets/153450550/8c0d4b04-676d-4fb5-b6cd-304c4d0e55a9"></code>
