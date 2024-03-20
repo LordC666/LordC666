@@ -38,11 +38,11 @@ Degree repo:
 
 ## My Github Info
 
-[![LordC666's Stats](https://github-readme-stats.vercel.app/api?username=LordC666&theme=gotham&show_icons=true&hide_border=false&count_private=true)
+![LordC666's Stats](https://github-readme-stats.vercel.app/api?username=LordC666&theme=gotham&show_icons=true&hide_border=false&count_private=true)
 
-[![LordC666's Streak](https://github-readme-streak-stats.herokuapp.com/?user=LordC666&theme=gotham&hide_border=false)
+![LordC666's Streak](https://github-readme-streak-stats.herokuapp.com/?user=LordC666&theme=gotham&hide_border=false)
 
-[![LordC666's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=LordC666&theme=gotham&show_icons=true&hide_border=false&layout=compact)
+![LordC666's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=LordC666&theme=gotham&show_icons=true&hide_border=false&layout=compact)
 
 <!--
 **LordC666/LordC666** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. 
