@@ -1,0 +1,124 @@
+/*Cambiamos el fondo de pantalla*/
+body {
+    background-color: rgb(10, 126, 87);
+}
+/*Hacemos que el encabezado tenga fondo negro, los objetos se localicen en el centro
+y que los objetos estén separados*/
+#head {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: black;
+}
+/*Cambiamos el color del texto y le damos margen a la izquierda*/
+#head h2 {
+    color: rgb(249, 243, 236);
+    margin-left: 20px;
+    
+}
+/*El navegador hacemos que no tenga forma de lista*/
+#head ul li{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 20px;
+
+}
+/*El navegador hacemos que sea blanco*/
+#head a{
+    text-decoration: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: rgb(234, 229, 223); 
+}
+/*Cuando pongamos el ratón encima de uno de los elementos del navegador 
+cambia de color a naranja*/
+#head a:hover{
+    color:rgb(198, 122, 24)
+}
+/*Cuando pulsemos encima del elemento cambiará de colora  azul*/
+#head a:active{
+    color:rgb(102, 102, 242);
+}
+/*La estructura es similar al encabezado*/
+#foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+#foot h2{
+    color:aliceblue;
+}
+/*Reaccina de la misma manera que los elementos del navegador del encabezado*/
+#foot i{
+    color:aliceblue;
+}
+
+#foot i:hover{
+    color:rgb(198, 122, 24)   
+}
+
+#foot i:active{
+    color:rgb(102, 102, 242);
+}
+
+
+/*--------------------------------------Configuraciones globales------------------------------------------------*/
+
+/*Todos los elementos dentro del cuerpo se localizan en el centro y 
+se van colocando en forma de columna*/
+#calculator {
+    display:flex;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*El formulario teb¡ndrá márgenes en la derecha, la izquierda y en el pié,
+los bordes más redondos, que los objetos se localicen en el centro, el fondo sea blanco 
+y que en los bordes tengan sombreado*/
+#calculator .form {
+    max-width: 30%;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    align-items: center;    
+    border-radius: 10px;
+    box-shadow: 2cm;
+    background-color: aliceblue;
+}
+
+.form div{
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*------------------------------------------------Página Calculadora--------------------------------------------------*/
+
+#contact {
+    display:flex;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+#contact .form{
+    max-width: 80%;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    align-items: center;    
+    border-radius: 10px;
+    box-shadow: 2cm;
+    background-color: aliceblue;
+}
+
+/*---------------------------------------------------Página formulario---------------------------------------------------*/

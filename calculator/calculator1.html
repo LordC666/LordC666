@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Hacemos una llamada al documento css con la siguiente línea-->
+    <link rel="stylesheet"  type="text/css" href="css\calculator.css">
+    <script src="https://kit.fontawesome.com/9da614027c.js" crossorigin="anonymous"></script>
+    <title>Comenarios</title>
+</head>
+<body>
+<!--Creamos un encabezado donde aparece el "titulo" de la pájina y un navegador donde viajaremos
+entre la página de inicio y la de contactos-->
+    <header id="head">
+        <div>
+            <h2>Calculadora CASIO</h2>
+        </div>
+        <div>
+            <ul>
+                <li><a  href=".\calculator.html">Inicio</a></li>
+                <li><a  href=".\calculator1.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="contact">
+        <div class="form">
+<!--Este formulario no va a tener una función en específico por que solo estará para la estética de la página aunque es posible 
+hacer una publicación añadiendo funciones usando php-->
+            <h3>Deje su comentario</h3>
+            <br>
+            <form action="" method="get">
+<!--Texto en en que hay que poner el nombre de la persona-->     
+                <label for="name">Nombre</label><br>
+                <input class="text" placeholder="Introduzca su nombre completo" required>
+                <br><br>
+<!--Texto en el que hay que introducir el correo electrónico-->
+                <label for="mail">Correo</label><br>
+                <input class="mail" required>
+                <br><br>
+<!--Bloque de texto donde se almacenará el comentario-->
+                <textarea name="coment" id="coment" cols="30" rows="10" placeholder="Escriba su comentario..."></textarea>
+                <br><br>
+<!--Dos botones, el primero "envía" el comentario con todos los datos y el otro borra todos los bloques de texto de este-->
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </div>
+            </form>
+        </div>    
+    </section>
+    <footer id="foot">
+        <div>
+            <h2>CASIO</h2>
+        </div>
+        <div>
+<!--Estos links van directamente al facebook, twitter, instagram y linkedin en ese orden al pulsar sobre ellos-->
+<!--Para poner los logos de las redes sociales hemos usado una herramienta llamada Fontawesome la cual nos facilita los iconos-->
+            <span><a href="https://www.facebook.com/CASIOGSHOCK/"><i class="fa-brands fa-facebook"></i></a></span>
+            <span><a href="https://twitter.com/i/flow/login?redirect_after_login=%2FCasioOfficial"><i class="fa-brands fa-twitter"></i></a></span>
+            <span><a href="https://www.instagram.com/gshock_casio_official/"><i class="fa-brands fa-instagram"></i></a></span>
+            <span><a href="https://www.linkedin.com/company/casio-espa-a/?originalSubdomain=es"><i class="fa-brands fa-linkedin"></i></a></span>
+        </div>
+    </footer>
+</body>
+</html>

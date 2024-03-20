@@ -1,0 +1,128 @@
+<!--Vamos a  crear una página web la cual contendrá un formulario el cual funcionará como
+una calculadora que realice operaciones de +,-,*,%.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Hacemos una llamada al documento css con la siguiente línea-->
+    <link rel="stylesheet"  type="text/css" href="css\calculator.css">
+    <script src="https://kit.fontawesome.com/9da614027c.js" crossorigin="anonymous"></script>
+    <title>Calculadora simple</title>
+</head>
+<body>
+<!--Creamos un encabezado donde aparece el "titulo" de la pájina y un navegador donde viajaremos
+entre la página de inicio y la de contactos-->
+    <header id="head">
+        <div>
+            <h2>Calculadora CASIO</h2>
+        </div>
+        <div>
+            <ul>
+                <li><a  href=".\calculator.html">Inicio</a></li>
+                <li><a  href=".\calculator1.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+<!--Esta sección se compone de dos elementos-->
+    <section id="calculator">
+<!--Lo primero es una imagen de una calculadora-->
+        <div class="img">
+            <img src=".\img\OIP.png">
+        </div>
+<!--El último elemento es la calculadora en sí, donde se introducirán los valores para hacer el cálculo-->
+        <div class="form">
+<!--Primero, ponemos la márca de la calculadora y una explicación breve de como funciona la calculadora-->
+            <div>
+                <h3>CASIO</h3>
+                <p>Esta calculadora realiza calculos básicos de: suma, resta, multiplicación y división.
+                    Rellene los campos solicitados y después dale a "calcular" para calcular o a "reiniciar"
+                    para borrar los campos solicitados</p>
+            </div>
+            <div>
+<!--Hacemos el formulario y para que se comunique con el script, hacemos referencia a la misma página-->
+                <form action=".\calculator.html" method="GET">
+<!--Primero, inttroducimos un número, este campi es obligatorio-->
+                    <label for="num1">Primer Número:</label>
+                    <br>
+                    <input type="number" id="num1" name="num1" required>
+                    <br><br>
+<!--Ahora, hacemos lo mismo con el segundo número-->
+                    <label for="num2">Segundo Número:</label>
+                    <br>
+                    <input type="number" id="num2" name="num2" required>
+                    <br><br>
+<!--Finalmente, creamos un bloque de elección donde dependiendo de lo que escojamos, realiza una 
+operación u otra, ya que cada opción tiene un valor distinto que usaremos más adelante-->
+                    <label for="calculation">Operación deseada:</label>
+                    <br>
+                    <select id="calculation">
+                        <option value="1">Suma</option>
+                        <option value="2">Resta</option>
+                        <option value="3">Multiplicación</option>
+                        <option value="4">División</option>
+                    </select>
+                    <br><br>
+                    <div>
+<!--Solamente, nos queda poner dos botones, el primero, llama a una función del escript que hace que se haga el cálculo solicitado
+y otro botón que vacía los campos del formulario-->
+                        <input type="submit" value="Calcular" onclick="calculator()">
+                        <input type="reset" value="Reiniciar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+<!--Nuestro último elemento es un pié de página el cual usamos para hacer referencia a los sitios oficiales de la 
+marca CASIO-->
+    <footer id="foot">
+        <div>
+            <h2>CASIO</h2>
+        </div>
+        <div>
+<!--Estos links van directamente al facebook, twitter, instagram y linkedin en ese orden al pulsar sobre ellos-->
+<!--Para poner los logos de las redes sociales hemos usado una herramienta llamada Fontawesome la cual nos facilita los iconos-->
+            <span><a href="https://www.facebook.com/CASIOGSHOCK/"><i class="fa-brands fa-facebook"></i></a></span>
+            <span><a href="https://twitter.com/i/flow/login?redirect_after_login=%2FCasioOfficial"><i class="fa-brands fa-twitter"></i></a></span>
+            <span><a href="https://www.instagram.com/gshock_casio_official/"><i class="fa-brands fa-instagram"></i></a></span>
+            <span><a href="https://www.linkedin.com/company/casio-espa-a/?originalSubdomain=es"><i class="fa-brands fa-linkedin"></i></a></span>
+        </div>
+    </footer>
+</body>
+<script>
+/*Creamos una función donde introduciremos unas variables*/   
+    function calculator(){
+/*Para darle valor a las variables, las optendremos directamente del formulario por medio del
+ID de los diferentes inputs*/
+    var num1 = parseFloat(document.getElementById("num1").value);
+    var num2 = parseFloat(document.getElementById("num2").value);
+    var calculation = document.getElementById("calculation").value;
+/*Esta variable la usaremos para almacenar el resultado de la operación*/ 
+    var resultado;
+/*Si elegimos suma*/
+        if ( calculation === "1" ) {
+            resultado = num1 + num2;
+            alert("El resultado de la suma es: " + resultado);
+/*Si elegimos resta*/
+        } else if ( calculation === "2" ) {
+            resultado = num1 - num2;
+            alert("El resultado de la resta es: " + resultado);
+/*Si elegimos multiplicación*/
+        } else if ( calculation === "3" ) {
+            resultado = num1 * num2;
+            alert("El resultado de la multiplicación es: " + resultado);
+/*Si elegimos división*/
+        } else if ( calculation === "4" ) {
+/*Para que no nos dé errores, hacemos una espección donde si el valor del divisor es 0 da 
+un mensaje de error*/
+            if ( num2 !== 0 ) {
+                resultado = num1 / num2;
+                alert("El resultado de la división es: " + resultado);
+            } else {
+            alert("No se pueden hacer divisiones entre 0")
+            }        
+        } 
+    }
+
+</script>
+</html>
