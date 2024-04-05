@@ -1,0 +1,54 @@
+html, body{
+    margin: 0;
+    padding: o;
+}
+
+.background {
+    background-image:url('img/los_penguins.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.second {
+    background-image:url('img/pingu2.jpeg');
+}
+
+.content {
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    text-align: center;
+}
+
+.black-block {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    justify-content: center;
+    align-items: center; 
+}
+
+.message {
+
+    font-size: 24px;
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    z-index: -1;
+    transition: transform 0.3s ease;
+    transform: translateY(-50%);
+}

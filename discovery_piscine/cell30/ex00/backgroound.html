@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="background.css">
+    <title>Ex00</title>
+</head>
+<body id="b">
+    <label for="">
+        <input type="button" onclick="change_color()" value="Click me!" id="button">
+    </label>
+<script>
+ function change_color() {
+
+    var r = Math.floor(Math.random() * 256);
+    var g = Math.floor(Math.random() * 256);
+    var b = Math.floor(Math.random() * 256);
+
+    var randomcolor = 'rgb(' + r + ',' + g + ',' + b + ')';
+
+    document.getElementById('button');
+    document.getElementById('b').style.backgroundColor = randomcolor;
+ }
+</script>
+</body>
+
+</html>

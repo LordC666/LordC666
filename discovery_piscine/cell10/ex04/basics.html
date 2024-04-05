@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Básico</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+
+        #title { 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #title h1 {
+            color:azure
+        }
+
+        #img_link {
+            display: flex;
+            margin-top: 3%;
+            align-items: center;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        #img_link a {
+            text-decoration: none;
+            color: beige;
+        }
+
+        #img_link a:hover {
+            color: chocolate;
+        }
+
+        #img_link a:active {
+            color:brown;
+        }
+
+        #copyright {
+            display: flex;
+            margin-right: 4%;
+            justify-content: right;
+            font-family:monospace;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="title">
+    <h1>Wellc@me !!!</h1>
+    </div>
+
+    <div id="img_link">
+        <div>
+            <img src="img/aws.png" alt="Amazon">
+            <a href="https://www.amazon.es/s?i=merchant-items&me=APL1K58JVKGYQ&page=2"><p>Ver tienda</p></a>
+        </div>
+        <div>
+            <img src="img/shein.png" alt="Shein">
+            <a href="https://es.shein.com/?affiliateID=277929&url_from=admitad.com&click_id=9ba6c8123f4089106cf252bfa6cbeb2c&admitad_uid=9ba6c8123f4089106cf252bfa6cbeb2c"><p>Ver tienda</p></a>
+        </div>
+    </div>
+    <hr>
+    <div id="copyright">
+        <p>&copy; cnieto-s 2024</p>
+    </div>
+</body>
+</html>

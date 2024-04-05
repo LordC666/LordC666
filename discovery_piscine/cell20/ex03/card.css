@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    text-align: center;
+
+}
+
+.whi {
+    background-color: black;
+    color: white;
+}
+
+.whi:hover {
+    cursor: pointer;
+}
+
+.whi:active {
+    background-color: rgb(61, 54, 54);
+    color: coral;
+}
+
+.grey {
+    color:grey;
+}
