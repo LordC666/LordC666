@@ -1,0 +1,86 @@
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Freelancer - Start Bootstrap Theme</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    
+        body{
+            background-image: url(https://midu.dev/images/wallpapers/web-technologies-4k-wallpaper.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #9dafb4;
+            background-size: 100% 100%;
+        }
+    
+        .menu {
+            display: none;
+        }
+    
+        .menu:target {
+            display: block;
+        }
+    
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            padding: 10px;
+            border-radius: 20px;
+            position: sticky;
+            top: 0;
+        }
+    
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 40px;
+            background-color: #000000;
+            border-radius: 20px;
+            width: 30%;
+            height: 10%;
+            text-align: center;
+        }
+    
+    </style>
+    <script>
+        window.addEventListener('hashchange', function() {
+        var transparente = document.querySelector('.transparente');
+        var transparente2 = document.querySelector('.transparente2');
+        if (window.location.hash) {
+            // Si hay un hash en la URL (es decir, se ha seleccionado un target),
+            // ocultamos el div .transparente
+            transparente.style.display = 'none';
+            transparente2.style.display = 'none';
+        } else {
+            // Si no hay un hash en la URL (es decir, no se ha seleccionado ningún target),
+            // mostramos el div .transparente
+            transparente.style.display = 'block';
+            transparente2.style.display = 'block';
+        }
+        });
+    </script>
+</head>
+<html>
+    <body>
+        <div class="nav">
+            <a href="fmoran-m.html">FMORAN</a>
+            <a href="ivde-die.html">IVDE-DIE</a>
+            <a href="cnieto-s.html">CNIETO-S</a>
+        </div>
+    </body>
+</html>
