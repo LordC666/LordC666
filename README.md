@@ -9,7 +9,7 @@
 
 I'm currently doing a superior degree in Networked Computer Systems Administration,where I am specializing in Databases, Computer Security and Markup Language. I stand out for my outstanding ability in the design, implementation and management of databases, as well as in the application of effective computer security measures. In addition, I have solid experience in web development using Markup Language. My long-term goal is to further specialize in Computer Security to contribute significantly to the protection of critical systems and data. 
 
-Degree repo: 
+[![Codewars](https://www.codewars.com/users/Ismaelucky342/badges/large)](https://www.codewars.com/users/LordC666) 
 
 ## Languages and Tools 🔧⚙️
 
